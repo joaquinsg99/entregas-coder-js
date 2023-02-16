@@ -1,0 +1,108 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+/* estilos body */
+
+body {
+    background-color: rgb(221, 203, 203);
+}
+
+body header h1 {
+    text-align: center;
+    border: solid #353232;
+    box-shadow: 2px 2px 2px black;
+    background-color: rgb(238, 151, 151);    
+}
+
+body header h2 {
+    text-align: center;
+    border: solid #353232;
+    box-shadow: 2px 2px 2px black;
+    background-color: rgb(238, 151, 151);
+    margin-top: 0.3em;  
+}
+body header nav {
+    display: flex;
+    
+    justify-content: center;
+
+}
+
+body header nav ul {
+    display: flex;
+    list-style: none;
+}
+body header nav ul li {
+   margin-left: 1em;
+   font-size: 20px;
+   border: solid #353232;
+    box-shadow: 2px 2px 2px black;
+    background-color: rgb(238, 151, 151);
+    margin-top: 0.3em;  
+}
+
+body main {
+    display: grid;
+    margin-top: 0.3em;  
+    grid-template-areas: 
+    "img1 img2"
+    "img3 img4";
+    margin-left: 2em;
+    
+}
+
+body main div {
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 1em;
+   
+}
+body main div button {
+    border: solid #353232;
+    box-shadow: 2px 2px 2px black;
+    background-color: rgb(196, 86, 86);
+    
+}
+
+.foto-duki {
+    width: 40%;
+    grid-area: img1;  
+    border: solid #353232;
+    box-shadow: 6px 6px 6px rgb(238, 151, 151);
+   
+    
+}
+
+.foto-feid {
+    width: 50%;
+    grid-area: img2;
+    border: solid #353232;
+    box-shadow: 6px 6px 6px rgb(238, 151, 151);
+}
+
+.foto-tiago {
+    width: 40%;
+    grid-area: img3;
+    border: solid #353232;
+    box-shadow: 6px 6px 6px rgb(238, 151, 151);
+}
+
+.foto-rels {
+    width: 50%;
+    grid-area: img4;
+    border: solid #353232;
+    box-shadow: 6px 6px 6px rgb(238, 151, 151);
+}
+
+body footer {
+    text-align: center;
+    border: solid #353232;
+    box-shadow: 2px 2px 2px black;
+    background-color: rgb(238, 151, 151);
+    margin-top: 0.3em;
+}
